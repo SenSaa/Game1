@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/parentLayout"
+    android:gravity="center_vertical"
+    android:background="#b32a8a">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <!-- *** The width & height must be scaled down from the original bitmap picture.
+         Otherwise, there will be margins!
+         original w = 315, h = 1254. So, divide them by a number to make achieve desired size (6, in this case).
+         -->
+
+        <!-- mainChar -->
+        <ImageView
+            android:layout_width="52.5dp"
+            android:layout_height="209dp"
+            android:id="@+id/mainCharImageView"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Stripe1 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stageImageView"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginLeft="75dp" />
+
+        <!-- Stripe2 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stageImageView2"
+            android:layout_gravity="right"
+            android:layout_marginRight="75dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Stripe3 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stageImageView3"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginLeft="75dp" />
+
+        <!-- Stripe4 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stageImageView4"
+            android:layout_gravity="right"
+            android:layout_marginRight="75dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Goal -->
+        <com.example.yusuf.game1.CustomView
+            android:id="@+id/custom_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <!-- Score Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Score"
+            android:id="@+id/scoreTextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <!-- Gif Custom View
+        <view
+            class="com.example.yusuf.game1.GameView$GifWebView2"
+            android:id="@+id/custom_webview2"
+            android:layout_height="418dp"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:background="#f24a2d38"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_margin="0dp" />
+            -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top">
+
+        <!-- Score Beam Image. -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreBeam"
+            />
+
+        <!-- Score Beam Image2. -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreBeam2"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

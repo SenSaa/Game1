@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        tools:context="com.example.yusuf.game1.MainActivity"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f24a2d38"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Game"
+            android:id="@+id/startGamebutton"
+            android:layout_gravity="center_horizontal"
+            android:background="#ed7b632b"
+            android:singleLine="false"
+            android:hapticFeedbackEnabled="true"
+            />
+
+        <LinearLayout
+            tools:context="com.example.yusuf.game1.MainActivity"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#f24a2d38"
+            android:gravity="center">
+
+            <!-- Gif Custom View -->
+            <!-- Wrap in "view" tag. -->
+            <!-- Use "$" for inner class. -->
+            <view
+                class="com.example.yusuf.game1.MainActivity$GifWebView"
+                android:id="@+id/custom_webview"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:background="#f24a2d38"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_margin="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
