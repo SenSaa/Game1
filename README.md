@@ -14,3 +14,5 @@ A simple game where scoring occurs once the rectangular base (horizontally-movin
 <video preload="auto" autoplay="autoplay" loop="loop" style="width: 200px; height: 200px;">
     <source src="//i.imgur.com/H9olX4U.webm" type="video/webm"></source>
 </video>
+
+<iframe class="imgur-embed" width="200" height="200" frameborder="0" src="http://i.imgur.com/91S22q6.gifv#embed"></iframe>
