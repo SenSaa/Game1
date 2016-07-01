@@ -6,3 +6,9 @@ A simple game where scoring occurs once the rectangular base (horizontally-movin
 ![alt tag](http://i.imgur.com/H9olX4U.gifv "App Gif")
 
 ![gif](http://i.imgur.com/H9olX4U.gifv)
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="H9olX4U"><a href="//imgur.com/H9olX4U">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+[img]http://i.imgur.com/H9olX4U.gif[/img]
+
+[Imgur](http://i.imgur.com/H9olX4U.gifv)
