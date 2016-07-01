@@ -3,7 +3,7 @@ A simple game where scoring occurs once the rectangular base (horizontally-movin
 
 ![alt tag](http://i.imgur.com/YfPMaju.png "App screenshot")
 
-![alt tag](http://i.imgur.com/H9olX4U.gifv "App Gif")
+![alt tag](https://media.giphy.com/media/3o6gDXsAM0kpbY8sBW/giphy.gif "App Gif")
 
 ![gif](https://media.giphy.com/media/3o6gDXsAM0kpbY8sBW/giphy.gif "gif")
 
