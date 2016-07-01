@@ -10,3 +10,7 @@ A simple game where scoring occurs once the rectangular base (horizontally-movin
 <blockquote class="imgur-embed-pub" lang="en" data-id="H9olX4U"><a href="//imgur.com/H9olX4U">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 [Imgur](http://i.imgur.com/H9olX4U.gifv)
+
+<video preload="auto" autoplay="autoplay" loop="loop" style="width: 200px; height: 200px;">
+    <source src="//i.imgur.com/H9olX4U.webm" type="video/webm"></source>
+</video>
