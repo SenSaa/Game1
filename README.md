@@ -5,7 +5,7 @@ A simple game where scoring occurs once the rectangular base (horizontally-movin
 
 ![alt tag](http://i.imgur.com/H9olX4U.gifv "App Gif")
 
-![gif](https://media.giphy.com/media/3o6gDXsAM0kpbY8sBW/giphy.gif)
+![gif](https://media.giphy.com/media/3o6gDXsAM0kpbY8sBW/giphy.gif "gif")
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="H9olX4U"><a href="//imgur.com/H9olX4U">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
